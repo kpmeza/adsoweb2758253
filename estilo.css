@@ -1,0 +1,42 @@
+.titulo {
+    color: blue;
+}
+
+.sesion1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+a:link,
+a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+
+}
+
+a:hover,
+a:active {
+    background-color: green;
+    color: white;
+}
+
+.navegar {
+    display: flex;
+    justify-content: end;
+}
+
+.sesion3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.sesion4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

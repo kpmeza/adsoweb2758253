@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script>
+        function mmenu1() {
+            document.getElementById("menu1").innerHTML = "<h1> Bocachico $ 20000 </h1>";
+        }
+
+        function mostrar() {
+            document.getElementById("info").innerHTML = "<p>Lorem ipsum dolor sit amet"
+                + "consectetur adipisicing elit."
+                + "Ipsam, rem.</p>"
+                + "<h1>lo favorito </h1>"
+                + "<h3>$ 20000</h3>";
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Sesion 1  -->
+    <section class="sesion1">
+        <h1 class="titulo">RestoBAR ADSO 2758253</h1>
+        <nav class="navegar">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="">Servicios</a>
+            <a href="">Contacto</a>
+        </nav>
+    </section>
+    <!-- sesion2 -->
+    <section class="baner">
+        <img src="img/bg-hero.jpg" alt="" width="100%" height="500px">
+    </section>
+
+    <!-- sesion 3 -->
+    <h1>lo favorito </h1>
+    <section class="sesion3">
+
+        <article>
+
+            <img src="img/about-3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, rem.</p>
+            <button type="button" onclick="mostrar()">Informacion</button>
+            <div id="info"></div>
+        </article>
+
+
+        <article>
+            <img src="img/about-4.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, sunt.</p>
+
+        </article>
+        <article>
+            <img src="img/about-2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, quia.</p>
+
+        </article>
+    </section>
+    <h1>EL Menu </h1>
+    <!-- sesion 4 -->
+    <section class="sesion4">
+        <article id="menu1"> <img src="img/menu-1.jpg" alt="" width="300px" height="300px">
+            <button type="button" onclick="mmenu1()">Ver mas</button>
+        </article>
+        <article><img src="img/menu-2.jpg" alt="" width="300px" height="300px"></article>
+        <article><img src="img/menu-3.jpg" alt="" width="300px" height="300px"></article>
+        <article><img src="img/menu-4.jpg" alt="" width="300px" height="300px"></article>
+        <article><img src="img/menu-5.jpg" alt="" width="300px" height="300px"></article>
+        <article><img src="img/menu-6.jpg" alt="" width="300px" height="300px"></article>
+        <article><img src="img/menu-7.jpg" alt="" width="300px" height="300px"></article>
+        <article><img src="img/menu-8.jpg" alt="" width="300px" height="300px"></article>
+    </section>
+
+
+
+
+</body>
+
+</html>
