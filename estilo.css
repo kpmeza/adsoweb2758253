@@ -40,3 +40,27 @@ a:active {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
+
+@media only screen and (max-width: 800px) {
+    .sesion3 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .sesion4 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sesion3 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .sesion4 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
